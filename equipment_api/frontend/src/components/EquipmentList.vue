@@ -27,7 +27,7 @@
                         <v-btn icon @click="editItem(item)">
                             <v-icon>mdi-pencil</v-icon>
                         </v-btn>
-                        <v-btn icon @click="deleteItem(item)">
+                        <v-btn icon @click="deleteItem(item.id)">
                             <v-icon>mdi-delete</v-icon>
                         </v-btn>
                     </td>
