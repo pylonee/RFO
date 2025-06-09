@@ -103,7 +103,7 @@
                             <v-card-actions class="justify-end">
                                 <v-btn
                                     variant="text"
-                                    @click="showAddDialog = false"
+                                    @click="resetForm(), showAddDialog = false"
                                 >
                                     Отмена
                                 </v-btn>
