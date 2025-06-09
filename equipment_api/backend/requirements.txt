@@ -1,0 +1,12 @@
+#core
+Django==5.2.1
+djangorestframework==3.16.0
+
+#Database
+pyMySQL==1.1.1
+
+#Authentication
+djangorestframework_simplejwt==5.5.0
+
+#Filter
+django-filter==25.1
